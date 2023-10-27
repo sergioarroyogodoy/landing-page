@@ -29,7 +29,11 @@ ul {
     background-color: #1B1B1E;
     color: white;
     gap: 5%;
-    flex-wrap: wrap;
+    padding: 0 5% 40px;
+}
+
+.hero-section-text {
+    flex-basis: 500px;
 }
 
 h1 {
