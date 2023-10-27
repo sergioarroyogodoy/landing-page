@@ -6,6 +6,12 @@ body {
     margin: 0;
 }
 
+p {
+    line-height: 1.75;
+}
+
+/* -- Head -- */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -22,6 +28,12 @@ ul {
     gap: 20px;
 }
 
+.brand-logo {
+    font-size: 18px;
+}
+
+/* -- Body -- */
+
 .hero {
     display: flex;
     justify-content: center;
@@ -29,7 +41,7 @@ ul {
     background-color: #0a0a0a;
     color: white;
     gap: 5%;
-    padding: 0 5% 40px;
+    padding: 30px 5% 80px;
 }
 
 .hero-section-text {
@@ -37,9 +49,11 @@ ul {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: bolder;
-    margin-bottom: 10px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.25;
 }
 
 #hero-section-subtext {
@@ -53,4 +67,28 @@ h1 {
     color: black;
     font-size: 18px;
     font-family: inherit;
+}
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 5% ;
+}
+
+.card-collection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 50px 0;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 150;
+    text-align: center;
 }
