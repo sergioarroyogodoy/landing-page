@@ -1,4 +1,6 @@
+
 body {
+    font-family: 'Epilogue', sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -8,7 +10,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 30px 5%;
-    background-color: #373F51;
+    background-color: #1B1B1E;
     color: white;
 }
 
@@ -24,8 +26,17 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #a9bcd0;
+    background-color: #1B1B1E;
     color: white;
     gap: 5%;
     flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#hero-section-subtext {
+    font-size: 18px;
 }
