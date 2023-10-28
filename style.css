@@ -92,3 +92,22 @@ h1 {
     min-width: 150;
     text-align: center;
 }
+
+.quote-content {
+    padding: 80px 5% 50px;
+    background-color: #F6EDCB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+blockquote {
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    line-height: 1.25;
+}
+
+.quote-author {
+    margin-left: auto;
+}
