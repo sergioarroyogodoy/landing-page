@@ -45,6 +45,7 @@ ul {
     color: white;
     gap: 5%;
     padding: 30px 5% 80px;
+    flex-wrap: wrap;
 }
 
 .hero-section-text {
